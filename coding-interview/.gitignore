@@ -1,0 +1,60 @@
+# Compiled binaries
+/debug/
+/release/
+
+# Intermediate files
+/target/
+
+# Cargo-specific files
+**/*.rs.bk
+**/*.d
+
+# Build artifacts
+*.rlib
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+
+# Dependencies
+/Cargo.lock
+
+# Generated files
+*.profraw
+
+# IDE files and folders
+.idea/
+/.vscode/
+/*.swp
+/*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Files for testing
+*.test
+*.out
+
+# Debugger files
+*.lldb
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+/coverage/
+*.profdata
+*.profraw
+
+# Rust analyzer
+.rust-analyzer
+
+# Other metadata
+*.toml.bk
